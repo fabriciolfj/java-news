@@ -12,7 +12,18 @@ public class TestInstanceOfNew {
         if (rectangle instanceof Rectangle(ColoredPoint(Point p, Color c) v1, ColoredPoint v2)) {
             System.out.println(v2.c());
         }
+
+        Pair<A> p1;
+        Pair<I> p2 = null;
+
+        switch (p2) {                        // Error!
+            case Pair<I>(C c, I i)-> System.out.println("ok");
+            case Pair<I>(D d, C c) -> System.out.println("ok");
+            case Pair<I>(D d1, D d2) -> System.out.println("ok");
+        }
     }
+
+
 
     private static void forArray() {
         var list = List.of(new Point(1, 2), new Point(5,4));
