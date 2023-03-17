@@ -1,13 +1,13 @@
 package com.github.fabriciolfj.javanews.simultaneidadeestruturada;
 
-import jdk.incubator.concurrent.StructuredTaskScope;
+//import jdk.incubator.concurrent.StructuredTaskScope;
 
 import java.util.List;
 import java.util.concurrent.Future;
 
 public class Main {
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         final Main main = new Main();
         System.out.println(main.execute());
     }
@@ -33,5 +33,5 @@ public class Main {
 
     private List<Dog> getDogs() {
         return List.of(new Dog("Buddy"), new Dog("Simba"));
-    }
+    }*/
 }
